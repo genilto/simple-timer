@@ -1,0 +1,27 @@
+{
+    "name": "SimpleTimer",
+    "version": "0.0.1",
+    "keywords": "arduino, timer, esp",
+    "description": "Very simple arduino timer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/genilto/simple-timer.git"
+    },
+    "homepage": "https://github.com/genilto/simple-timer",
+    "authors": [
+        {
+            "name": "Genilto Vanzin",
+            "url": "https://genilto.com",
+            "maintainer": true
+        }
+    ],
+    "license": "GPL-3.0",
+    "exclude": "tests",
+    "examples": "examples/*/*.cpp",
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr",
+        "espressif8266",
+        "espressif32"
+    ]
+}
